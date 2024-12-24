@@ -4,7 +4,9 @@ import Comp1 from './cmp/Comp1';
 function App() {
   return (
    <>
-   <Comp1/>
+   <div style={{display:'flex', alignItems:'center',height:'100vh',justifyContent:'center'}}>
+         <Comp1/>
+   </div>
    </>
   );
 }
